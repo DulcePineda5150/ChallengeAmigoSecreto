@@ -9,7 +9,7 @@ function agregarAmigo() {
     /*alert (nombre);*/
     if (nombre!=""){
         arrayNombres.push(nombre);
-        alert("se ha agregado tu nombre correctamente");
+        ///alert("se ha agregado tu nombre correctamente");
         document.getElementById("amigo").value= "";
         RecorrerArreglo();
         
@@ -27,3 +27,14 @@ function RecorrerArreglo () {
     }
     
 }
+    function sortearAmigo (){
+        if(arrayNombres.length==0){
+            alert("no se han agregado nombres, favor de ingresarlos");
+        }else {
+            let numeroRamdom = Math.floor(Math.random() * arrayNombres.length);
+            let resultado = document.getElementById("resultado"); 
+            resultado.innerHTML= `<li>${arrayNombres[numeroRamdom]}</li>`;
+        }
+
+    }
+    
