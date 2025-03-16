@@ -20,7 +20,6 @@ function agregarAmigo() {
 function RecorrerArreglo () {
 
     let listanombre = document.getElementById("listaAmigos");
-    let nombres;
     listanombre.innerHTML = "";
     for (let i=0;i<arrayNombres.length; i++){
         listanombre.innerHTML+= `<li>${arrayNombres[i]}</li>`;
@@ -33,7 +32,9 @@ function RecorrerArreglo () {
         }else {
             let numeroRamdom = Math.floor(Math.random() * arrayNombres.length);
             let resultado = document.getElementById("resultado"); 
-            resultado.innerHTML= `<li>${arrayNombres[numeroRamdom]}</li>`;
+            resultado.innerHTML= `<li>El amigo secreto es: ${arrayNombres[numeroRamdom]}</li>`;
+            document.getElementById("listaAmigos").innerHTML = "";
+            arrayNombres = [];
         }
 
     }
