@@ -33,12 +33,14 @@ No se requiere instalación de software adicional.
 1. Clona este repositorio en tu computadora:
    git clone https://github.com/tu-usuario/amigo-secreto.git
 2. Abre el archivo index.html en tu navegador.
-3. Ingresa los nombres de los participantes en el campo correspondiente y agregalo con el botón **Añadir**.
-4. Haz clic en el botón **Sortear amigo**para realizar el sorteo.
-5. ¡Descubre quién es el "amigo secreto"!
+3. Ingresa los nombres de los participantes en el campo correspondiente y agregalo con el botón **Añadir**. ![README/Imagen1.png]
+4.- Al agregar el nombre se creará una lista con los nombres agregados. ![README/Imagen2.png]
+5. Haz clic en el botón **Sortear amigo**para realizar el sorteo. ![README/Imagen3.png]
+6. ¡Descubre quién es el "amigo secreto"!
 
 ## Nota adicional
 
-1.- Tiene validación de no dejar vacío el campo nombre antes de añadir un nombre.
-2.- Tiene validación de tener al menos un nombre para realizar el sorteo.
+1.- Tiene validación de no dejar vacío el campo nombre antes de añadir un nombre. ![README/Imagen4.png]
+2.- Tiene validación de tener al menos un nombre para realizar el sorteo.![README/Imagen5.png]
+
    
